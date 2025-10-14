@@ -1,0 +1,80 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+replication_node
+benchmark
+run_tests
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Log files
+*.log
+node_*.log
+
+# Generated files
+*.csv
+*.json
+cluster.pids
+
+# Temporary files
+*.tmp
+*.temp
+core
+core.*
+
+# Performance data
+callgrind.out.*
+gmon.out
+perf.data* 
